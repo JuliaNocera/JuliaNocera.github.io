@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, my name is Julia, and i am an SF Bay Area software engineer. i got my BA in Fine Arts from San Francisco State University. i have always been interested in the way things work, especially the internet ~ a wonderful place where the global community can gather to share opinions and knowledge ~ so i decided to make the switch to engineering. In 2015, i applied to and began the course at Hack Reactor in order to propel me toward my goal of being an excellent programmer. It has been a wonderful journey from art creation to web creation and i am looking forward to the exciting new technologies dominating the web!
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I love living in the Bay Area with all of its fanastic perks! We have great parks, trails, and beaches as well as delicious food. Some of my hobbies are playing music, guitar and hand drums mostly, computer art, drawing/watercolor, and cooking.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+Thanks for checking out my posts!
+
+~Julia 
