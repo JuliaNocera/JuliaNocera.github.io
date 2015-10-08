@@ -9,6 +9,10 @@ Hi, my name is Julia, and i am an SF Bay Area software engineer. i got my BA in 
 I love living in the Bay Area with all of its fanastic perks! We have great parks, trails, and beaches as well as delicious food. Some of my hobbies are playing music, guitar and hand drums mostly, computer art, drawing/watercolor, and cooking.
 
 
-Thanks for checking out my posts!
+Thanks for checking out my posts! 
 
 ~Julia 
+
+p.s. you can take a look at my Linkedin [here][Linkedin] for more info about me
+
+[Linkedin]: https://www.linkedin.com/in/julianocera
