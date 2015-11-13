@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "more on p5.js"
+date:   2015-11-13 13:47:00
+categories: jekyll update
+---
+Hello Again!
+
+As promised, a deeper dive into the world of p5*js! In my last post i discussed some reasons why you might want to check out [p5][p5] and gave a brief description of what the people involved with it are all about. Now its time to take a look at some code. Before we head into the code, though, lets take a look at some of its offerings.
+
+Some very cool features to be noted right off the bat:
+It has an alpha version editor of its own, a lot of information on how to migrate from Processing and Processing.js, engaging video tutorials on the basics, and great examples of how it has already been used. It is important to keep in mind that it is fairly new to the scene so a lot of the tutorials just give you the basics. What is so exciting about this though is that you can be an explorer in the uncharted waters of p5 and break boundaries fast! The possibilities of web interaction with p5 are limitless! All of your javascript knowledge can be applied to p5 because it is a javascript library unlike its predecessors, Processing & Processing.js. 
+
+In order to get straight into some coding, I want to discuss the editor that the great folks at p5*js have put together. It is a downloadable component of the p5 library that really lives up to the concept of a digital/coding sketchpad. It has some very neat features, such as the ability to start coding and see results right away without having to spin up your own server or even open your files, HTML  scripts included, in your browser. When you make a mistake, the editor not only shows you where you went wrong but, at the bottom of the editor, it will also show you what your mistake is (to some degree) and point you toward the correct place in the documentation to troubleshoot your problem.
+
+I would highly encourage downloading this editor if you want to get straight to experimenting with what p5 can do. Simply start a canvas and a draw function and press play and you can see your creations come to life. One very appealing thing about p5 is that it dynamically interacts with user input to adjust volume (yes, it has a sound library), video, and draw shapes on the screen before your eyes. 
+
+Download and type in : 
+{% highlight javascript %}
+// for red, green, and blue color values
+var r, g, b;
+
+function setup() {
+  createCanvas(720, 400);
+  // Pick colors randomly
+  r = random(255);
+  g = random(255);
+  b = random(255);
+}
+
+function draw() {
+  background(127);
+  // Draw a circle
+  strokeWeight(2);
+  stroke(r, g, b);
+  fill(r, g, b, 127);
+  ellipse(360, 200, 200, 200);
+}
+
+// When the user clicks the mouse
+function mousePressed() {
+  // Check if mouse is inside the circle
+  var d = dist(mouseX, mouseY, 360, 200);
+  if (d < 100) {
+    // Pick new random color values
+    r = random(255);
+    g = random(255);
+    b = random(255);
+  }
+}
+{% endhighlight %}
+
+Press play and you can see how easy it is to interact with a shape, click the circle and dynamically generate the color inside. You could do this for the background and have multiple shapes even.
+
+Thats it for now. Until next time!
+
+-J
+
+[p5]: http://p5js.org
