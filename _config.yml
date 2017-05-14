@@ -2,7 +2,7 @@
 title: Julia Nocera
 email: nocera.julia@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello! I am an SF Bay Area Software Engineer. I love to make things, cook, watch the stars, and hang with my partner and our two dogs.
+  Hello! I am a Software Engineer in Portland, Oregon. I love to make things, cook, watch the stars, and hang with my partner and our two dogs.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: giulz42
